@@ -7,6 +7,31 @@
     <title>Leaderboard API</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Leaderboard</h1>
+    </header>
+    <main class="main" id="main">
+        <section class="grid-section">
+            <div class="leaderborad-lists">
+                <div class="refresh">
+                    <h2 class="recent-score">Recent scores</h2>
+                    <button type="reset" class="refresh-btn">Refresh</button>
+                </div>
+                <div class="main-lists">
+
+                </div>
+            </div>
+            <div class="toadd-list">
+                <h2 class="add-score">Add your score</h2>
+                <form action="#" method="get">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                    <label for="score"></label>
+                    <input type="number" id="score" name="score" placeholder="Your score" required>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
